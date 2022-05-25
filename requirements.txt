@@ -1,0 +1,4 @@
+twitchio
+pyyaml
+pytz
+requests

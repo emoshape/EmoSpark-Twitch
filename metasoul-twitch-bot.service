@@ -1,0 +1,12 @@
+[Unit]
+Description=MetaSoul Twitch Bot Service
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/project/metasoul-twitch-bot/
+ExecStart=/project/metasoul-twitch-bot/venv/bin/python  /project/metasoul-twitch-bot/bot.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

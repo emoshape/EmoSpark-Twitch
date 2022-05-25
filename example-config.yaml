@@ -1,0 +1,10 @@
+APP:
+  DEBUG: False
+  ACCESS_TOKEN: "irc_access_token" ## Get from https://twitchtokengenerator.com
+  ACCOUNTS: [
+      {
+        name: "channel_name", # Channel Name
+        metasoul_api_key: "", # API key for MetaSoul
+        metasoul_epuid: "", # EPUID for MetaSoul
+      },
+    ]

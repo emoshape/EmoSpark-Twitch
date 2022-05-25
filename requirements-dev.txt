@@ -1,0 +1,16 @@
+twitchio
+pyyaml
+pytz
+requests
+
+## Zulint
+
+adamlint
+
+## Linters
+
+black
+isort
+gitlint
+pyflakes
+mypy
