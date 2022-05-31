@@ -70,3 +70,7 @@ systemctl enable metasoul-twitch-bot
 ## License
 
 This project is released under the [MIT License](https://github.com/emoshape/MetaSoul-Twitch/blob/main/LICENSE).
+
+## Discrod
+
+To Install MetaSoul bot for Discrod [Click Here](https://discord.com/api/oauth2/authorize?client_id=967535836612673569&permissions=1024&scope=bot%20applications.commands).
