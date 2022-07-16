@@ -1,4 +1,4 @@
-# MetaSoul Twitch Bot
+# EmoSpark Twitch Bot
 [![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![mypy coverage](https://img.shields.io/badge/mypy-100%25-green.svg)](https://github.com/python/mypy)
 
@@ -19,7 +19,7 @@ This has only been tested on Linux, so preferably use Linux or WSL 2 if on Windo
 Navigate to where you will store the bot files, then run:
 
 ```
-git clone git@github.com:emoshape/MetaSoul-Twitch.git
+git clone git@github.com:emoshape/EmoSpark-Twitch.git
 ```
 
 Then run:
@@ -40,8 +40,8 @@ The `ACCESS_TOKEN` key can be generated using this [generator](https://twitchtok
 
 The `name` key under `ACCOUNTS` should tbe the channel name you want the bot to listen to.
 
-The `metasoul_api_key` key under `ACCOUNTS` should be your secret from your [MetaSoul account](https://emoshape.org/cloud_service/backend/web/index.php?r=site%2Flogin).
-The `metasoul_epuid` key under `ACCOUNTS` should be your EPUID from your MetaSoul account.
+The `metasoul_api_key` key under `ACCOUNTS` should be your secret from your [EmoSpark account](https://emoshape.org/cloud_service/backend/web/index.php?r=site%2Flogin).
+The `metasoul_epuid` key under `ACCOUNTS` should be your EPUID from your EmoSpark account.
 
 Once you have this running the only thing then left is to setup your bot to run as a service if you wish, which you can do by amending the `./metasoul-twitch-bot.service` file with your working directory and copying it using the following command:
 
