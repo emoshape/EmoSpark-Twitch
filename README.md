@@ -10,7 +10,7 @@ The source code can be found [here](https://github.com/emoshape/MetaSoul-Twitch)
 ## Requirements
 Python 3 (Version 3.6 or later).
 
-Get one [MetaSoul™](https://metasoul.store).
+Get one [EmoSpark](https://emospark.com).
 
 ## Installation
 
